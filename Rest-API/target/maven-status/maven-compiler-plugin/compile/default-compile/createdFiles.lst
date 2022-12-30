@@ -1,0 +1,9 @@
+com\example\Rest\API\Repositories\RequestRepo.class
+com\example\Rest\API\DTO\CustomerDTO.class
+com\example\Rest\API\DTO\RequestDTO.class
+com\example\Rest\API\DTO\ProductDTO.class
+com\example\Rest\API\Controller.class
+com\example\Rest\API\RestApiApplication.class
+com\example\Rest\API\Repositories\CustomerRepo.class
+com\example\Rest\API\Service.class
+com\example\Rest\API\Repositories\ProductRepo.class
