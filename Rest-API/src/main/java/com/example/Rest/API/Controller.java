@@ -49,7 +49,7 @@ public class Controller {
         return servico.getRequest(id);
     }
 
-    @GetMapping("customer")
+    @GetMapping("request/customer")
     public ArrayList<RequestDTO> getRequestCustomer(@RequestHeader String customerId) throws Exception {
         return servico.getRequestsCustomer(customerId);
     }
@@ -59,7 +59,7 @@ public class Controller {
         return servico.addRequest(requestDTO);
     }
 
-    @PutMapping("request")
+    @PutMapping("request/Product")
     public void addProductRquest(@RequestHeader String idReq, @RequestHeader String productId) throws Exception {
         servico.addProductToRequest(idReq,productId);
     }
