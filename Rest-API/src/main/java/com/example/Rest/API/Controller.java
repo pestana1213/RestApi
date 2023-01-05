@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 @RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class Controller {
     @Autowired
     private Service servico;
